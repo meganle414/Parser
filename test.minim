@@ -1,0 +1,105 @@
+//* test comments 1
+% test comments 2
+
+int x;
+int y;
+struct CoolestStruct theCoolStruct;
+
+struct CoolestStruct{
+	int coolKey; 
+	int coolValue;
+};
+
+bool testAssign(int x, bool b){
+	if(b==true){
+		x=1;
+		return true;
+	} else{
+		x=-1; return false;
+	}
+}
+
+int testIf(int x, int y, int z){
+	if(x==0){
+		return Integer.MIN_VALUE;
+	}
+	x = y*3 + z;
+	return x;
+}
+
+void testIfElse(){
+if (b == -1) { x = 4+3*5-y; while (c) { y = y*2+x; } } else { x = 0; }}
+
+void testWhile(int count){
+	while(count != 0){
+		disp<<count;
+		count --;
+	}
+}
+
+int testReadAndWriteInt(int readVal, int writeVal){
+	input>>readVal; 
+	disp<<writeVal;
+	return readVal + writeVal;
+}
+
+bool testReadAndWriteBool(bool readFlag, bool writeFlag){
+	input>>readFlag; 
+	disp<<writeFlag;
+	return writeFlag || readFlag;
+}
+
+void testReadAndWriteStruct(int readStr, int writeStr){
+	input>>readStr.data_Val;
+	disp<<writeStr.data_Val + readStr.data_Val;
+	return;
+}
+
+int testFnCall(int x){
+	return print(x - 5 * y);
+}
+
+void testTerms(){
+	int x;
+	int y;
+	bool f;
+	bool g;
+	void p;
+	
+	i = 16;
+	f = true;
+    f = contains("hello world");
+	g = false;
+	
+	x = x * 3;
+	x.thing = x / 4;
+	
+	y = (y + 3) * x;
+	x = (a + b)/ 4 *3 + 3 - c/4;
+	
+	f = g && (thing2 == !f) >= x;
+	if(i != x+y){
+		f = i > x * 4;
+	} else {
+		f.thing2 = i >= x * 3 + n;
+		g.thing3 = i < (x / 3 + 4) / 2;
+	}
+	f = g || !g && (h <= g);
+	
+	f = -x + 5;
+	
+	f = getValue(x, i, h);
+	
+	p = getValueExpressions(x = a, x + b, flag || g && i);
+	return;
+}
+
+void testIncAndDec(int x, bool increment){
+	if(increment== true){
+		x++;
+	}
+	else{
+		x--;
+	}
+	return;
+}
